@@ -1,0 +1,340 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Component Return a snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        style="display: flex; justify-content: center;"
+      >
+        <div
+          class="ant-card ant-card-bordered css-dev-only-do-not-override-1r287do"
+          style="width: 40vw;"
+        >
+          <div
+            class="ant-card-head"
+          >
+            <div
+              class="ant-card-head-wrapper"
+            >
+              <div
+                class="ant-card-head-title"
+              >
+                Would You Rather
+              </div>
+            </div>
+          </div>
+          <div
+            class="ant-card-body"
+          >
+            <form
+              class="ant-form ant-form-horizontal css-dev-only-do-not-override-1r287do login-form"
+              id="normal_login"
+            >
+              <div
+                class="ant-form-item css-dev-only-do-not-override-1r287do"
+              >
+                <div
+                  class="ant-row ant-form-item-row css-dev-only-do-not-override-1r287do"
+                >
+                  <div
+                    class="ant-col ant-form-item-label css-dev-only-do-not-override-1r287do"
+                  >
+                    <label
+                      class="ant-form-item-required"
+                      for="normal_login_optionOne"
+                      title="Option one"
+                    >
+                      Option one
+                    </label>
+                  </div>
+                  <div
+                    class="ant-col ant-form-item-control css-dev-only-do-not-override-1r287do"
+                  >
+                    <div
+                      class="ant-form-item-control-input"
+                    >
+                      <div
+                        class="ant-form-item-control-input-content"
+                      >
+                        <input
+                          aria-required="true"
+                          class="ant-input css-dev-only-do-not-override-1r287do ant-input-outlined"
+                          id="normal_login_optionOne"
+                          placeholder="Option one"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-form-item css-dev-only-do-not-override-1r287do"
+              >
+                <div
+                  class="ant-row ant-form-item-row css-dev-only-do-not-override-1r287do"
+                >
+                  <div
+                    class="ant-col ant-form-item-label css-dev-only-do-not-override-1r287do"
+                  >
+                    <label
+                      class="ant-form-item-required"
+                      for="normal_login_optionTwo"
+                      title="Option two"
+                    >
+                      Option two
+                    </label>
+                  </div>
+                  <div
+                    class="ant-col ant-form-item-control css-dev-only-do-not-override-1r287do"
+                  >
+                    <div
+                      class="ant-form-item-control-input"
+                    >
+                      <div
+                        class="ant-form-item-control-input-content"
+                      >
+                        <input
+                          aria-required="true"
+                          class="ant-input css-dev-only-do-not-override-1r287do ant-input-outlined"
+                          id="normal_login_optionTwo"
+                          placeholder="Option two"
+                          type="text"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="ant-form-item css-dev-only-do-not-override-1r287do"
+              >
+                <div
+                  class="ant-row ant-form-item-row css-dev-only-do-not-override-1r287do"
+                >
+                  <div
+                    class="ant-col ant-form-item-control css-dev-only-do-not-override-1r287do"
+                  >
+                    <div
+                      class="ant-form-item-control-input"
+                    >
+                      <div
+                        class="ant-form-item-control-input-content"
+                      >
+                        <button
+                          class="ant-btn css-dev-only-do-not-override-1r287do ant-btn-primary login-form-button"
+                          style="width: 100%;"
+                          type="submit"
+                        >
+                          <span>
+                            Add
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      style="display: flex; justify-content: center;"
+    >
+      <div
+        class="ant-card ant-card-bordered css-dev-only-do-not-override-1r287do"
+        style="width: 40vw;"
+      >
+        <div
+          class="ant-card-head"
+        >
+          <div
+            class="ant-card-head-wrapper"
+          >
+            <div
+              class="ant-card-head-title"
+            >
+              Would You Rather
+            </div>
+          </div>
+        </div>
+        <div
+          class="ant-card-body"
+        >
+          <form
+            class="ant-form ant-form-horizontal css-dev-only-do-not-override-1r287do login-form"
+            id="normal_login"
+          >
+            <div
+              class="ant-form-item css-dev-only-do-not-override-1r287do"
+            >
+              <div
+                class="ant-row ant-form-item-row css-dev-only-do-not-override-1r287do"
+              >
+                <div
+                  class="ant-col ant-form-item-label css-dev-only-do-not-override-1r287do"
+                >
+                  <label
+                    class="ant-form-item-required"
+                    for="normal_login_optionOne"
+                    title="Option one"
+                  >
+                    Option one
+                  </label>
+                </div>
+                <div
+                  class="ant-col ant-form-item-control css-dev-only-do-not-override-1r287do"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <input
+                        aria-required="true"
+                        class="ant-input css-dev-only-do-not-override-1r287do ant-input-outlined"
+                        id="normal_login_optionOne"
+                        placeholder="Option one"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-form-item css-dev-only-do-not-override-1r287do"
+            >
+              <div
+                class="ant-row ant-form-item-row css-dev-only-do-not-override-1r287do"
+              >
+                <div
+                  class="ant-col ant-form-item-label css-dev-only-do-not-override-1r287do"
+                >
+                  <label
+                    class="ant-form-item-required"
+                    for="normal_login_optionTwo"
+                    title="Option two"
+                  >
+                    Option two
+                  </label>
+                </div>
+                <div
+                  class="ant-col ant-form-item-control css-dev-only-do-not-override-1r287do"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <input
+                        aria-required="true"
+                        class="ant-input css-dev-only-do-not-override-1r287do ant-input-outlined"
+                        id="normal_login_optionTwo"
+                        placeholder="Option two"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ant-form-item css-dev-only-do-not-override-1r287do"
+            >
+              <div
+                class="ant-row ant-form-item-row css-dev-only-do-not-override-1r287do"
+              >
+                <div
+                  class="ant-col ant-form-item-control css-dev-only-do-not-override-1r287do"
+                >
+                  <div
+                    class="ant-form-item-control-input"
+                  >
+                    <div
+                      class="ant-form-item-control-input-content"
+                    >
+                      <button
+                        class="ant-btn css-dev-only-do-not-override-1r287do ant-btn-primary login-form-button"
+                        style="width: 100%;"
+                        type="submit"
+                      >
+                        <span>
+                          Add
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

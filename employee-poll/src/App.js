@@ -32,7 +32,7 @@ function App() {
         <Route element={<PrivateWrapper />}>
           <Route path="/" element={<Dashboard />} />
           <Route path="leaderboard" element={<Leader />} />
-          <Route path="new" element={<NewPoll />} />
+          <Route path="add" element={<NewPoll />} />
           <Route path={"question/:id"} element={<AnswerPoll />}/>
         </Route>
         <Route path={"login"} element={<Login />} />

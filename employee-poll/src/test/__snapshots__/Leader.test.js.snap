@@ -1,0 +1,815 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Component Return a snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="ant-list ant-list-split css-dev-only-do-not-override-1r287do"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1r287do"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <ul
+              class="ant-list-items"
+            >
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-avatar"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                    >
+                      <img
+                        src="https://api.dicebear.com/7.x/miniavs/svg?seed=1"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      Sarah Edo
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      <span>
+                        4
+                         Questions Answered,
+                         
+                        2
+                         Questions Asked
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-avatar"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                    >
+                      <img
+                        src="https://api.dicebear.com/7.x/miniavs/svg?seed=3"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      Mike Tsamis
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      <span>
+                        3
+                         Questions Answered,
+                         
+                        2
+                         Questions Asked
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-avatar"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                    >
+                      <img
+                        src="https://api.dicebear.com/7.x/miniavs/svg?seed=23"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      Tyler McGinnis
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      <span>
+                        2
+                         Questions Answered,
+                         
+                        2
+                         Questions Asked
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-avatar"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                    >
+                      <img
+                        src="https://api.dicebear.com/7.x/miniavs/svg?seed=4"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      Zenobia Oshikanlu
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      <span>
+                        1
+                         Questions Answered,
+                         
+                        0
+                         Questions Asked
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="ant-list ant-list-split css-dev-only-do-not-override-1r287do"
+    >
+      <div
+        class="ant-spin-nested-loading css-dev-only-do-not-override-1r287do"
+      >
+        <div
+          class="ant-spin-container"
+        >
+          <ul
+            class="ant-list-items"
+          >
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-avatar"
+                >
+                  <span
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                  >
+                    <img
+                      src="https://api.dicebear.com/7.x/miniavs/svg?seed=1"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    Sarah Edo
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    <span>
+                      4
+                       Questions Answered,
+                       
+                      2
+                       Questions Asked
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-avatar"
+                >
+                  <span
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                  >
+                    <img
+                      src="https://api.dicebear.com/7.x/miniavs/svg?seed=3"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    Mike Tsamis
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    <span>
+                      3
+                       Questions Answered,
+                       
+                      2
+                       Questions Asked
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-avatar"
+                >
+                  <span
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                  >
+                    <img
+                      src="https://api.dicebear.com/7.x/miniavs/svg?seed=23"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    Tyler McGinnis
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    <span>
+                      2
+                       Questions Answered,
+                       
+                      2
+                       Questions Asked
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-avatar"
+                >
+                  <span
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                  >
+                    <img
+                      src="https://api.dicebear.com/7.x/miniavs/svg?seed=4"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    Zenobia Oshikanlu
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    <span>
+                      1
+                       Questions Answered,
+                       
+                      0
+                       Questions Asked
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Dashboard Component Return a snapshot 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="ant-list ant-list-split css-dev-only-do-not-override-1r287do"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1r287do"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <ul
+              class="ant-list-items"
+            >
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-avatar"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                    >
+                      <img
+                        src="https://api.dicebear.com/7.x/miniavs/svg?seed=1"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      Sarah Edo
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      <span>
+                        4
+                         Questions Answered,
+                         
+                        2
+                         Questions Asked
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-avatar"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                    >
+                      <img
+                        src="https://api.dicebear.com/7.x/miniavs/svg?seed=3"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      Mike Tsamis
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      <span>
+                        3
+                         Questions Answered,
+                         
+                        2
+                         Questions Asked
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-avatar"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                    >
+                      <img
+                        src="https://api.dicebear.com/7.x/miniavs/svg?seed=23"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      Tyler McGinnis
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      <span>
+                        2
+                         Questions Answered,
+                         
+                        2
+                         Questions Asked
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-avatar"
+                  >
+                    <span
+                      class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                    >
+                      <img
+                        src="https://api.dicebear.com/7.x/miniavs/svg?seed=4"
+                      />
+                    </span>
+                  </div>
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      Zenobia Oshikanlu
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      <span>
+                        1
+                         Questions Answered,
+                         
+                        0
+                         Questions Asked
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="ant-list ant-list-split css-dev-only-do-not-override-1r287do"
+    >
+      <div
+        class="ant-spin-nested-loading css-dev-only-do-not-override-1r287do"
+      >
+        <div
+          class="ant-spin-container"
+        >
+          <ul
+            class="ant-list-items"
+          >
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-avatar"
+                >
+                  <span
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                  >
+                    <img
+                      src="https://api.dicebear.com/7.x/miniavs/svg?seed=1"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    Sarah Edo
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    <span>
+                      4
+                       Questions Answered,
+                       
+                      2
+                       Questions Asked
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-avatar"
+                >
+                  <span
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                  >
+                    <img
+                      src="https://api.dicebear.com/7.x/miniavs/svg?seed=3"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    Mike Tsamis
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    <span>
+                      3
+                       Questions Answered,
+                       
+                      2
+                       Questions Asked
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-avatar"
+                >
+                  <span
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                  >
+                    <img
+                      src="https://api.dicebear.com/7.x/miniavs/svg?seed=23"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    Tyler McGinnis
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    <span>
+                      2
+                       Questions Answered,
+                       
+                      2
+                       Questions Asked
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-avatar"
+                >
+                  <span
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-1r287do"
+                  >
+                    <img
+                      src="https://api.dicebear.com/7.x/miniavs/svg?seed=4"
+                    />
+                  </span>
+                </div>
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    Zenobia Oshikanlu
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    <span>
+                      1
+                       Questions Answered,
+                       
+                      0
+                       Questions Asked
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

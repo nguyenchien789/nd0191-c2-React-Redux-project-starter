@@ -1,18 +1,13 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { store } from "../../state/store/store.js";
 import { Switch, List } from "antd";
 import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 
-const Dashboard = () => {
-  var userId = store.getState().isLogged.id;
-  const [isAnswered, setIsAnswered] = useState(true);
+const Dashboard = ({ array, answer }) => {
+  const [isAnswered, setIsAnswered] = useState(false);
   const [data, setData] = useState([]);
   useEffect(() => {
-    const questions = store.getState().questions;
-    const user = store.getState().users[userId];
-    const array = Object.keys(questions).map((key) => questions[key]);
-    const answer = Object.keys(user.answers).map((key) => key);
     let data;
     if (isAnswered) {
       data = array.filter((item) => answer.includes(item.id));
@@ -29,11 +24,7 @@ const Dashboard = () => {
   return (
     <>
       <div>
-        <Switch
-          style={{ marginRight: "20px" }}
-          defaultChecked
-          onChange={onChange}
-        />
+        <Switch style={{ marginRight: "20px" }} onChange={onChange} />
         {isAnswered ? "Answered Questions" : "Unanswered Questions"}
       </div>
       <List
@@ -57,4 +48,20 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+const mapStateToProps = ({ isLogged, users, questions }) => {
+  const user = users[isLogged.id];
+  const array = Object.keys(questions)
+    .map((key) => questions[key])
+    .sort((a, b) => b.timestamp - a.timestamp);
+  const answer = Object.keys(user.answers).map((key) => key);
+
+  console.log(isLogged);
+  console.log(users);
+  console.log(questions);
+  return {
+    array: array,
+    answer: answer,
+  };
+};
+
+export default connect(mapStateToProps)(Dashboard);

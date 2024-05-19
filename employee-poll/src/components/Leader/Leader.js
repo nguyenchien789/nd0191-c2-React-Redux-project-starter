@@ -8,23 +8,31 @@ const Leader = () => {
   const [data, setData] = useState([]);
   useEffect(() => {
     const array = Object.keys(users).map((key) => users[key]);
-    const data = array.sort((a, b) => Object.keys(b.answers).length - Object.keys(a.answers).length);
+    const data = array.sort(
+      (a, b) => Object.keys(b.answers).length - Object.keys(a.answers).length
+    );
     setData(data);
   }, []);
   return (
     <List
-    itemLayout="horizontal"
-    dataSource={data}
-    renderItem={(item, index) => (
-      <List.Item>
-        <List.Item.Meta
-          avatar={<Avatar src={item.avatarURL} />}
-          title={item.name}
-          description={<span>{Object.keys(item.answers).length} Answers, {Object.keys(item.questions).length} Questions</span>}
-        />
-      </List.Item>
-    )}
-  />)
+      itemLayout="horizontal"
+      dataSource={data}
+      renderItem={(item, index) => (
+        <List.Item>
+          <List.Item.Meta
+            avatar={<Avatar src={item.avatarURL} />}
+            title={item.name}
+            description={
+              <span>
+                {Object.keys(item.answers).length} Questions Answered,{" "}
+                {Object.keys(item.questions).length} Questions Asked
+              </span>
+            }
+          />
+        </List.Item>
+      )}
+    />
+  );
 };
 
 export default Leader;

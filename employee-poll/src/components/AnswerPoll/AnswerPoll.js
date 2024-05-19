@@ -1,26 +1,29 @@
 import React from "react";
-import { Avatar, Radio } from "antd";
+import { Avatar, Radio, Result } from "antd";
 import { store } from "../../state/store/store.js";
 import { useParams } from "react-router-dom";
 import { _saveQuestionAnswer } from "../../_DATA.js";
 import { updateQuestions, updateUsers } from "../../state/action/action.js";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const AnswerPoll = () => {
   const param = useParams();
   const [question, setQuestion] = useState(
     store.getState().questions[param.id]
   );
-  const user = store.getState().users[question.author];
+  const user = store.getState().users[question?.author];
   const userId = store.getState().isLogged.id;
   const [value, setValue] = useState(
     store.getState().users[userId].answers[param.id.toString()]
   );
   // const [ optionOneRatio, setOptionOneRatio] = useState(0);
 
+  useEffect(() => {
+    console.log(question);
+  }, []);
   const options = [
-    { label: question.optionOne.text, value: "optionOne" },
-    { label: question.optionTwo.text, value: "optionTwo" },
+    { label: question?.optionOne.text, value: "optionOne" },
+    { label: question?.optionTwo.text, value: "optionTwo" },
   ];
 
   const onChange = async ({ target: { value } }) => {
@@ -59,13 +62,13 @@ const AnswerPoll = () => {
     setValue(store.getState().users[userId].answers[param.id.toString()]);
     setQuestion(store.getState().questions[param.id]);
   };
-  return (
+  return question !== undefined ? (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <div>
         <div style={{ display: "flex", justifyContent: "center" }}>
           <Avatar size={100} src={user.avatarURL} />
         </div>
-        <h3  style={{ display: "flex", justifyContent: "center" }}>
+        <h3 style={{ display: "flex", justifyContent: "center" }}>
           Would You Rather {question.optionOne.text} or{" "}
           {question.optionTwo.text} ?
         </h3>
@@ -96,6 +99,12 @@ const AnswerPoll = () => {
         )}
       </div>
     </div>
+  ) : (
+    <Result
+      status="404"
+      title="404"
+      subTitle="Sorry, the poll you visited does not exist."
+    />
   );
 };
 

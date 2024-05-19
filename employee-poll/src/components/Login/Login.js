@@ -12,7 +12,13 @@ function Login() {
     var user = store.getState().users[values.username];
     if(user !== undefined && user.password === values.password) {
       store.dispatch(userLogin(user));
-      navigate("/");
+      const urlParams = new URLSearchParams(window.location.search);
+      const redirectUrl = urlParams.get('redirectTo');
+      if (redirectUrl) {
+        navigate(redirectUrl);
+      } else {
+        navigate("/");
+      }
     }
   };
   return <div style={{display: "flex", justifyContent: "center", marginTop: "30vh"}}>
@@ -26,13 +32,14 @@ function Login() {
         name="username"
         rules={[{ required: true, message: 'Please input your Username!' }]}
       >
-        <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
+        <Input data-testid="username" prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
       </Form.Item>
       <Form.Item
         name="password"
         rules={[{ required: true, message: 'Please input your Password!' }]}
       >
         <Input
+          data-testid="password"
           prefix={<LockOutlined className="site-form-item-icon" />}
           type="password"
           placeholder="Password"

@@ -15,7 +15,7 @@ const items = [
     label: <Link to={"/leaderboard"}>Leaderboard</Link>,
   },
   {
-    label: <Link to={"/new"}>New</Link>,
+    label: <Link to={"/add"}>New</Link>,
   },
 ];
 const AppLayout = ({ children }) => {
@@ -59,7 +59,6 @@ const AppLayout = ({ children }) => {
             type="primary"
             style={{ margin: "20px" }}
             onClick={Logout}
-            Logout
           >
             Logout
           </Button>

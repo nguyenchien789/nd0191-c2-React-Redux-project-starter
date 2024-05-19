@@ -1,0 +1,527 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Component Return a snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <button
+          aria-checked="false"
+          class="ant-switch css-dev-only-do-not-override-1r287do"
+          role="switch"
+          style="margin-right: 20px;"
+          type="button"
+        >
+          <div
+            class="ant-switch-handle"
+          />
+          <span
+            class="ant-switch-inner"
+          >
+            <span
+              class="ant-switch-inner-checked"
+            />
+            <span
+              class="ant-switch-inner-unchecked"
+            />
+          </span>
+        </button>
+        Unanswered Questions
+      </div>
+      <div
+        class="ant-list ant-list-split css-dev-only-do-not-override-1r287do"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1r287do"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <ul
+              class="ant-list-items"
+            >
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      <a
+                        href="/question/xj352vofupe1dqz9emx13r"
+                      >
+                        Would you rather 
+                        deploy to production once every two weeks
+                         or
+                         
+                        deploy to production once every month
+                      </a>
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      mtsamis
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      <a
+                        href="/question/vthrdm985a262al8qx3do"
+                      >
+                        Would you rather 
+                        take a course on ReactJS
+                         or
+                         
+                        take a course on unit testing with Jest
+                      </a>
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      tylermcginnis
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <button
+        aria-checked="false"
+        class="ant-switch css-dev-only-do-not-override-1r287do"
+        role="switch"
+        style="margin-right: 20px;"
+        type="button"
+      >
+        <div
+          class="ant-switch-handle"
+        />
+        <span
+          class="ant-switch-inner"
+        >
+          <span
+            class="ant-switch-inner-checked"
+          />
+          <span
+            class="ant-switch-inner-unchecked"
+          />
+        </span>
+      </button>
+      Unanswered Questions
+    </div>
+    <div
+      class="ant-list ant-list-split css-dev-only-do-not-override-1r287do"
+    >
+      <div
+        class="ant-spin-nested-loading css-dev-only-do-not-override-1r287do"
+      >
+        <div
+          class="ant-spin-container"
+        >
+          <ul
+            class="ant-list-items"
+          >
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    <a
+                      href="/question/xj352vofupe1dqz9emx13r"
+                    >
+                      Would you rather 
+                      deploy to production once every two weeks
+                       or
+                       
+                      deploy to production once every month
+                    </a>
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    mtsamis
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    <a
+                      href="/question/vthrdm985a262al8qx3do"
+                    >
+                      Would you rather 
+                      take a course on ReactJS
+                       or
+                       
+                      take a course on unit testing with Jest
+                    </a>
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    tylermcginnis
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Dashboard Component Return a snapshot 2`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <button
+          aria-checked="false"
+          class="ant-switch css-dev-only-do-not-override-1r287do"
+          role="switch"
+          style="margin-right: 20px;"
+          type="button"
+        >
+          <div
+            class="ant-switch-handle"
+          />
+          <span
+            class="ant-switch-inner"
+          >
+            <span
+              class="ant-switch-inner-checked"
+            />
+            <span
+              class="ant-switch-inner-unchecked"
+            />
+          </span>
+        </button>
+        Unanswered Questions
+      </div>
+      <div
+        class="ant-list ant-list-split css-dev-only-do-not-override-1r287do"
+      >
+        <div
+          class="ant-spin-nested-loading css-dev-only-do-not-override-1r287do"
+        >
+          <div
+            class="ant-spin-container"
+          >
+            <ul
+              class="ant-list-items"
+            >
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      <a
+                        href="/question/xj352vofupe1dqz9emx13r"
+                      >
+                        Would you rather 
+                        deploy to production once every two weeks
+                         or
+                         
+                        deploy to production once every month
+                      </a>
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      mtsamis
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="ant-list-item"
+              >
+                <div
+                  class="ant-list-item-meta"
+                >
+                  <div
+                    class="ant-list-item-meta-content"
+                  >
+                    <h4
+                      class="ant-list-item-meta-title"
+                    >
+                      <a
+                        href="/question/vthrdm985a262al8qx3do"
+                      >
+                        Would you rather 
+                        take a course on ReactJS
+                         or
+                         
+                        take a course on unit testing with Jest
+                      </a>
+                    </h4>
+                    <div
+                      class="ant-list-item-meta-description"
+                    >
+                      tylermcginnis
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <button
+        aria-checked="false"
+        class="ant-switch css-dev-only-do-not-override-1r287do"
+        role="switch"
+        style="margin-right: 20px;"
+        type="button"
+      >
+        <div
+          class="ant-switch-handle"
+        />
+        <span
+          class="ant-switch-inner"
+        >
+          <span
+            class="ant-switch-inner-checked"
+          />
+          <span
+            class="ant-switch-inner-unchecked"
+          />
+        </span>
+      </button>
+      Unanswered Questions
+    </div>
+    <div
+      class="ant-list ant-list-split css-dev-only-do-not-override-1r287do"
+    >
+      <div
+        class="ant-spin-nested-loading css-dev-only-do-not-override-1r287do"
+      >
+        <div
+          class="ant-spin-container"
+        >
+          <ul
+            class="ant-list-items"
+          >
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    <a
+                      href="/question/xj352vofupe1dqz9emx13r"
+                    >
+                      Would you rather 
+                      deploy to production once every two weeks
+                       or
+                       
+                      deploy to production once every month
+                    </a>
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    mtsamis
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="ant-list-item"
+            >
+              <div
+                class="ant-list-item-meta"
+              >
+                <div
+                  class="ant-list-item-meta-content"
+                >
+                  <h4
+                    class="ant-list-item-meta-title"
+                  >
+                    <a
+                      href="/question/vthrdm985a262al8qx3do"
+                    >
+                      Would you rather 
+                      take a course on ReactJS
+                       or
+                       
+                      take a course on unit testing with Jest
+                    </a>
+                  </h4>
+                  <div
+                    class="ant-list-item-meta-description"
+                  >
+                    tylermcginnis
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
